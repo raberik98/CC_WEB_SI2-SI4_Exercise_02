@@ -1,6 +1,6 @@
 {
   "name": "cc_web_si2-si4_exercise_02",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Task name: Company Budget and Employees handler",
   "main": "index.js",
   "scripts": {
