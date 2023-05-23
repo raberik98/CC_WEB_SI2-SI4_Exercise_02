@@ -3,7 +3,7 @@ Task name: Company Budget and Employees handler
 
 
 You are hired to create a project where the finance department can handle employees and the company budget.
-The starting files are already added as well as some starting data.
+The starting files are already added as well as some starting data. Please not that for tasks that require you to validate who triggered the endpoint for now you can just pass the _id in the params.
 
 1; Set up a backend server which will be able to handle our database. If you are already working with MongoDB and Mongoose create a new javascript file which will register all of the employees provided to you and than run it once.
 
@@ -19,6 +19,6 @@ The starting files are already added as well as some starting data.
 
 7; Create a middleware which will write the current company budget to the console every time we are triggering one of our endpoints. If you are using MongoDB than it's fine if you also store the company budget in a variable and when you would change the budget for any reason in the database then change this variable too. You don't have to request it from the database every time you trigger one of your endpoints.
 
-8; Create an endpoint that the CEO can trigger, and it will pay all the employees, this also includes that in the transaction history you need to register this transaction, the reason (the text field that shows what was the transaction for) should be: "Monthly salary".
+8; Create an endpoint that the CEO can trigger, and it will pay all the employees, this also includes that in the transaction history you need to register this transaction, the reason (the text field that shows what was the transaction for) should be: "Monthly salary". If anyone who is not the CEO attempts to trigger this endpoint then respond with an appropriate response and statuscode. You can validate by passing the _id as a params.
 
 TO BE CONTINUED...
